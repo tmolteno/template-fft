@@ -1,4 +1,8 @@
 /* Test code for the FFT 
+ * Author: Tim Molteno, tim@physics.otago.ac.nz
+ *
+ * Copyright Tim Molteno, 2008-2015.
+ * Licensed under the GPL v3.
  * 
  * Perform 1000 FFT followed by Inverse FFT.
  * Print out the calculated number of Megaflops from the formula
@@ -19,7 +23,7 @@ using namespace std;
 
 #define TEST_LOOP 1000
 /*
-    gcc -O2 -ftree-vectorize fft_noeigen.cpp -lstdc++
+    gcc -O2 -ftree-vectorize fft_tb.cpp -lstdc++
 */
 
 

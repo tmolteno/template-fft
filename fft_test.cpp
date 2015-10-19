@@ -1,3 +1,12 @@
+/*
+  Test code for using the template FFT code.
+
+  Author: Tim Molteno, tim@physics.otago.ac.nz
+
+  Copyright Tim Molteno, 2008-2015.
+  Licensed under the GPL v3.
+*/
+
 #include "fft_complex.h"
 #include <Eigen/Dense>
 using namespace std;
